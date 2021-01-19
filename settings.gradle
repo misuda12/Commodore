@@ -1,5 +1,5 @@
 rootProject.name = 'Commodore'
 
+include 'Common'
 include 'Bungeecord'
 include 'Bukkit'
-

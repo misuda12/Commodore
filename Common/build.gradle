@@ -1,21 +1,2 @@
-plugins {
-    id 'java'
-    id 'org.jetbrains.kotlin.jvm' version '1.4.21'
-}
-
-group 'net.commodore'
+group 'net.commodore.common'
 version '1.0-SNAPSHOT'
-
-repositories {
-    mavenCentral()
-}
-
-dependencies {
-    implementation "org.jetbrains.kotlin:kotlin-stdlib"
-    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.0'
-    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
-}
-
-test {
-    useJUnitPlatform()
-}
