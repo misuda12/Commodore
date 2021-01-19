@@ -1,0 +1,5 @@
+rootProject.name = 'Commodore'
+
+include 'Bungeecord'
+include 'Bukkit'
+
